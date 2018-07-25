@@ -1,0 +1,40 @@
+{
+  "name": "mqk-cli",
+  "version": "0.0.1",
+  "description": "Just a command line tool!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moqike/mqk-cli.git"
+  },
+  "keywords": [
+    "commandline"
+  ],
+  "author": "Siqi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moqike/mqk-cli/issues"
+  },
+  "homepage": "https://github.com/moqike/mqk-cli#readme",
+  "engines": {
+    "node": ">=6"
+  },
+  "bin": {
+    "mqk": "./bin/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0",
+    "inquirer": "^6.0.0",
+    "update-notifier": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
