@@ -1,10 +1,10 @@
 {
   "name": "mqk-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Just a command line tool!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -33,9 +33,12 @@
     "update-notifier": "^2.5.0"
   },
   "devDependencies": {
+    "assert": "^1.4.1",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0"
+    "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.4"
   }
 }
